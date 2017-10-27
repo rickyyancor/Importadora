@@ -98,6 +98,14 @@ public class cotizacion extends Fragment {
 
             }
         });
+        Button btn1=(Button)view.findViewById(R.id.button9);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ((MainActivity)getActivity()).MostrarCatalogo();
+
+            }
+        });
 
         return view;
     }

@@ -87,6 +87,16 @@ public class BlankFragment extends Fragment {
 
             }
         });
+        final EditText txtip=(EditText)view.findViewById(R.id.editText15);
+
+        Button btn_ip =(Button) view.findViewById(R.id.button7);
+        btn_ip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ((MainActivity)getActivity()).setIp(txtip.getText().toString());
+
+            }
+        });
         btn_Mostrar_Registro =(Button) view.findViewById(R.id.button3);
         btn_Mostrar_Registro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,7 +105,6 @@ public class BlankFragment extends Fragment {
 
             }
         });
-
         return view;
     }
 
