@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ClienteImportadora.iml" filepath="$PROJECT_DIR$/ClienteImportadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/Importadora.iml" filepath="$PROJECT_DIR$/Importadora.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Importadora.iml" filepath="$PROJECT_DIR$/Importadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

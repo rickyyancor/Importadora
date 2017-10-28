@@ -16,6 +16,7 @@ public class HttpRequestTaskTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.sa.ricky.clienteimportadora", appContext.getPackageName());
+        //kjfkgjghgkjhgkjhgkjhg
     }
 
 }
